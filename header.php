@@ -36,8 +36,15 @@
 <body>
     <!--header-->
     <header data-scroll-header id="home" class="header">
+
         <div class="header__flex">
             <h3><a href="#">Mie Suzuki</a></h3>
+            <?php
+            wp_nav_menu( array(
+                'theme_location' => 'pc-nav',
+                'menu_class' => 'header__flex--right'
+            ));
+            ?>
             <ul class="header__flex--right">
                 <li><a data-scroll href="#">HOME</a></li>
                 <li><a data-scroll href="#about">VALUES</a></li>
@@ -48,6 +55,11 @@
                 <div id="js-open-menu">MENU</div>
                 <div id="js-global-menu" class="click__open">
                     <div id="js-close-menu" class="close__button">×</div>
+                    <?php
+                    wp_nav_menu( array(
+                        'theme_location' => 'mobile-nav',
+                    ));
+                    ?>
                     <ul>
                         <li class="js-link-menu"><a href="#home">HOME</a></li>
                         <li class="js-link-menu"><a href="#about">VALUES</a></li>
