@@ -17,9 +17,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11"><meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mie Suzuki | Front-End Developer</title>
+    <title><?php bloginfo('name'); ?></title>
     <script src="dist/main.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <!--animsition.css-->
     <link rel="stylesheet" href="dist/css/animsition.min.css">
     <!--jQuery-->
