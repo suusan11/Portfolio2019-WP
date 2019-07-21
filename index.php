@@ -1,59 +1,91 @@
 <?php
 /**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package hungrydeveloper
+ * Created by PhpStorm.
+ * User: miiiiiiiiiiie
+ * Date: 2019-07-20
+ * Time: 15:44
  */
-
-get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
 
-		<?php
-		if ( have_posts() ) :
+<?php get_header(); ?>
 
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-				<?php
-			endif;
+<div class="animsition">
 
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+    <section id="js-breakPoint" class="hero">
+        <div class="container">
+            <div class="hero__title">
+                <h1>I'm Mie.</h1>
+                <p>Front-End Developer - Based on Vancouver</p>
+            </div>
+            <img id="about" class="hero__img" src="<?php echo get_template_directory_uri()?>/dist/images/profile.png" alt="my image">
+            <div class="text__change">
+                <p>who loves</p>
+                <p class="text__change--word">Coding <span>👩🏻‍💻</span></p>
+                <p class="text__change--word">Design <span>🎨</span></p>
+                <p class="text__change--word">Food <span>🥟💓</span></p>
+                <p class="text__change--word">Travel <span>✈️</span></p>
+            </div>
+        </div>
+    </section>
+    <!--hero section-->
 
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
+    <section class="values container">
+        <h1 class="section__title">Values</h1>
+        <div class="values__item">
+            <div class="values__item--flex">
+                <img src="<?php echo get_template_directory_uri()?>/dist/images/icon__eye.png" alt="icon eye">
+                <p>Design and development <span>with a keen eye and attention to detail</span> is my strength. Working with caution that an error of 1px will change the impression of the website.</p>
+            </div>
+            <div class="values__item--flex">
+                <img src="<?php echo get_template_directory_uri()?>/dist/images/icon__pen.png" alt="icon pen">
+                <p>To <span>clarify the target and the concept</span>, and proceed with the design so that the axis does not move. The presence of an axis prevents directional blurring when making corrections.</p>
+            </div>
+            <div class="values__item--flex">
+                <img src="<?php echo get_template_directory_uri()?>/dist/images/icon__code.png" alt="icon code">
+                <p><span>Coding is part of the design</span> and trying to keep the clear and clean code. Keep in mind the code which can be used repeatedly paying attention to the component.</p>
+            </div>
+        </div>
+    </section>
+    <!--values section-->
 
-			endwhile;
+    <section id="works" class="works container">
+        <h1 class="section__title">Works</h1>
+        <div class="works__flex">
+            <div class="work">
+                <a class="animsition-link" href="dist/html/work-kulkuri.html"><img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/thumbnail.jpg" alt="thumbnail kulkuri"></a>
+                <p><span>kulkuri</span> - HTML / SCSS / JavaScript</p>
+            </div>
+            <div class="work">
+                <a class="animsition-link" href="dist/html/work-mogu.html"><img src="<?php echo get_template_directory_uri()?>/dist/images/mogu/thumbnail.png" alt="thumbnail mogu"></a>
+                <p><span>mogu</span> - WordPress</p>
+            </div>
+            <div class="work">
+                <a class="animsition-link" href="dist/html/work-wordworth.html"><img src="<?php echo get_template_directory_uri()?>/dist/images/wordsworth/thumbnail.jpg" alt="thumbnail wordsworth"></a>
+                <p><span>Wordsworth Planner</span> - Adobe XD</p>
+            </div>
+            <div class="work">
+                <a class="animsition-link" href="dist/html/work-uidesign.html"><img src="<?php echo get_template_directory_uri()?>/dist/images/ui/thumbnail.png" alt="thumbnail ui"></a>
+                <p class="text__center"><span>DailyUI</span> - Illustlator / Photoshop</p>
+            </div>
+        </div>
+    </section>
+    <!--works section-->
 
-			the_posts_navigation();
+    <section id="contact" class="contact container">
+        <h1 class="section__title">Contact</h1>
+        <div class="contact__info">
+            <p>I am seeking a job as a
+                <span>Front-End Developer</span>.
+                <br>If you are interested me,
+                please send an email to me.
+            </p>
+        </div>
+        <a class="common__button" href="mailto:miesuzuki107@gmail.com">Send an E-mail</a>
+    </section>
+    <!--contact section-->
 
-		else :
+</div>
+<!--animsition-->
 
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php
-get_sidebar();
-get_footer();
+<?php get_footer(); ?>
