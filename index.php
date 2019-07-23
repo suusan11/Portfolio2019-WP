@@ -62,7 +62,7 @@
                                     the_post_thumbnail(); ?>
                                 <?php endif; ?>
                             </a>
-                            <p><span><?php the_title(); ?></span> <?php the_tags('- ', '/', ' '); ?></p>
+                            <p><span><?php the_title(); ?></span> <?php the_tags('- ', ' / ', ' '); ?></p>
                         </div>
                     <?php endwhile; ?>
                     <?php wp_reset_postdata(); ?>
