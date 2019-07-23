@@ -49,27 +49,49 @@
     </section>
     <!--values section-->
 
-    <section id="works" class="works container">
-        <h1 class="section__title">Works</h1>
-        <div class="works__flex">
-            <div class="work">
-                <a class="animsition-link" href="dist/html/work-kulkuri.html"><img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/thumbnail.jpg" alt="thumbnail kulkuri"></a>
-                <p><span>kulkuri</span> - HTML / SCSS / JavaScript</p>
-            </div>
-            <div class="work">
-                <a class="animsition-link" href="dist/html/work-mogu.html"><img src="<?php echo get_template_directory_uri()?>/dist/images/mogu/thumbnail.png" alt="thumbnail mogu"></a>
-                <p><span>mogu</span> - WordPress</p>
-            </div>
-            <div class="work">
-                <a class="animsition-link" href="dist/html/work-wordworth.html"><img src="<?php echo get_template_directory_uri()?>/dist/images/wordsworth/thumbnail.jpg" alt="thumbnail wordsworth"></a>
-                <p><span>Wordsworth Planner</span> - Adobe XD</p>
-            </div>
-            <div class="work">
-                <a class="animsition-link" href="dist/html/work-uidesign.html"><img src="<?php echo get_template_directory_uri()?>/dist/images/ui/thumbnail.png" alt="thumbnail ui"></a>
-                <p class="text__center"><span>DailyUI</span> - Illustlator / Photoshop</p>
-            </div>
-        </div>
-    </section>
+<!--    <section id="works" class="works container">-->
+<!--        <h1 class="section__title">Works</h1>-->
+<!--        <div class="works__flex">-->
+<!--            <div class="work">-->
+<!--                <a class="animsition-link" href="dist/html/work-kulkuri.html"><img src="--><?php //echo get_template_directory_uri()?><!--/dist/images/kulkuri/thumbnail.jpg" alt="thumbnail kulkuri"></a>-->
+<!--                <p><span>kulkuri</span> - HTML / SCSS / JavaScript</p>-->
+<!--            </div>-->
+<!--            <div class="work">-->
+<!--                <a class="animsition-link" href="dist/html/work-mogu.html"><img src="--><?php //echo get_template_directory_uri()?><!--/dist/images/mogu/thumbnail.png" alt="thumbnail mogu"></a>-->
+<!--                <p><span>mogu</span> - WordPress</p>-->
+<!--            </div>-->
+<!--            <div class="work">-->
+<!--                <a class="animsition-link" href="dist/html/work-wordworth.html"><img src="--><?php //echo get_template_directory_uri()?><!--/dist/images/wordsworth/thumbnail.jpg" alt="thumbnail wordsworth"></a>-->
+<!--                <p><span>Wordsworth Planner</span> - Adobe XD</p>-->
+<!--            </div>-->
+<!--            <div class="work">-->
+<!--                <a class="animsition-link" href="dist/html/work-uidesign.html"><img src="--><?php //echo get_template_directory_uri()?><!--/dist/images/ui/thumbnail.png" alt="thumbnail ui"></a>-->
+<!--                <p class="text__center"><span>DailyUI</span> - Illustlator / Photoshop</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!--works section-->
+
+<!--    --><?php //$the_query = new WP_Query( array('post-type' => 'post', 'post_per_page' => -1)); ?>
+    <?php if ( have_posts() ): ?>
+        <section id="works" class="works container">
+            <h1 class="section__title">Works</h1>
+                <div class="works__flex">
+                    <div class="work">
+                        <?php while ( have_posts() ): the_post(); ?>
+                        <a class="animsition-link" href="">
+                            <?php
+                            if(has_post_thumbnail()) :
+                                the_post_thumbnail(); ?>
+                            <?php endif; ?>
+                        </a>
+                        <p><span><?php the_title(); ?></span> <?php the_tags($before, '/', ' '); ?></p>
+                        <?php endwhile; ?>
+                    </div>
+                    <?php wp_reset_postdata(); ?>
+                </div>
+        </section>
+    <?php endif; ?>
     <!--works section-->
 
     <section id="contact" class="contact container">
