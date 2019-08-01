@@ -18,17 +18,7 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11"><meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php bloginfo('name'); ?></title>
-    <script src="dist/main.js"></script>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-    <!--animsition.css-->
-    <link rel="stylesheet" href="dist/css/animsition.min.css">
-    <!--jQuery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!--animsition.js-->
-    <script src="dist/js/animsition.min.js"></script>
-    <!--smooth-scroll.js-->
-    <script src="dist/js/smooth-scroll.polyfills.min.js"></script>
-    <link rel="shortcut icon" href="dist/images/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri()?>/dist/images/favicon.ico">
 
 	<?php wp_head(); ?>
 </head>
@@ -54,7 +44,7 @@
                 <li><a data-scroll href="#contact">CONTACT</a></li>
             </ul>
             <div class="global__menu">
-                <div id="js-open-menu">MENU</div>
+                <div id="js-open-menu"><a>MENU</a></div>
                 <div id="js-global-menu" class="click__open">
                     <div id="js-close-menu" class="close__button">×</div>
                     <?php
