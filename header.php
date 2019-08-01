@@ -38,7 +38,10 @@
     <header data-scroll-header id="home" class="header">
 
         <div class="header__flex">
-            <h3><a href="#">Mie Suzuki</a></h3>
+            <div class="name__flex">
+                <a class="header__icon" href="#"><img src="<?php echo get_template_directory_uri()?>/dist/images/profile.png" alt="profile image"></a>
+                <h3>MIE SUZUKI</h3>
+            </div>
             <?php
             wp_nav_menu( array(
                 'theme_location' => 'pc-nav',
@@ -46,9 +49,8 @@
             ));
             ?>
             <ul class="header__flex--right">
-                <li><a data-scroll href="#">HOME</a></li>
-                <li><a data-scroll href="#about">VALUES</a></li>
                 <li><a data-scroll href="#works">WORKS</a></li>
+                <li><a data-scroll href="#values">VALUES</a></li>
                 <li><a data-scroll href="#contact">CONTACT</a></li>
             </ul>
             <div class="global__menu">
