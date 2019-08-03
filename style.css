@@ -1001,7 +1001,7 @@ a.common__button {
   height: 100vh;
   background-color: #2D3133;
   padding: 7vh 10vw;
-  margin-top: 8vh; }
+  margin-top: 5vh; }
   @media (min-width: 1000px) {
     .work__intro--black {
       margin-top: 0; } }
@@ -1011,6 +1011,7 @@ a.common__button {
       margin-bottom: 10vh; } }
   @media (min-width: 440px) and (max-width: 599px) {
     .work__intro--black {
+      margin-top: 7vh;
       padding: 15vh 10vw; } }
   .work__intro--black h2 {
     color: #FFFFFF;
