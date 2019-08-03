@@ -197,8 +197,8 @@ get_header() ;
         </div>
         <a class="common__button button__work--bottom" href="https://kulkuriworld.com/" target="_blank">Visit Website</a>
         <div class="pagenation container">
-            <h4 class="prev"><a class="animsition-link" href="work-uidesign.html">previous</a></h4>
-            <h4 class="next"><a class="animsition-link" href="work-mogu.html">next</a></h4>
+            <h4 class="prev"><?php previous_post_link('%link', '< previous'); ?></h4>
+            <h4 class="next"><?php next_post_link('%link', 'next >'); ?></h4>
         </div>
     </section>
     <!--work image and link to Website-->
