@@ -1,7 +1,7 @@
 {
-  "name": "Portfolio2",
+  "name": "portfolio2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Start to develop in June 2019",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,5 +32,6 @@
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
-  }
+  },
+  "dependencies": {}
 }
