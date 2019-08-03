@@ -6,7 +6,7 @@
  * Time: 19:36
  */
 
-get_header();
+get_header('workpage');
 ?>
 
     <div class="animsition">
