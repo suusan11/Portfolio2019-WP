@@ -17,7 +17,7 @@ get_header();
                 include(TEMPLATEPATH . '/single/single-kulkuri.php');
             }else if ( is_single('mogu') ) {
                 include(TEMPLATEPATH . '/single/single-mogu.php');
-            }else if ( is_single('wordsworth') ){
+            }else if ( is_single('wordsworth-planner') ){
                 include(TEMPLATEPATH . '/single/single-wordsworth.php');
             }else {
                 include(TEMPLATEPATH . '/single/single-ui.php');
