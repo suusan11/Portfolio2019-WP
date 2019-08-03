@@ -11,7 +11,7 @@ get_header();
 ?>
     //link to each category slug page
     <?php
-        $post = $wp_query -> post;
+        $post = $wp_query -> post; //get THE post including posts
         if (in_category('work')) {
             if ( is_single('kulkuri') ) {
                 include(TEMPLATEPATH . '/single/single-kulkuri.php');
