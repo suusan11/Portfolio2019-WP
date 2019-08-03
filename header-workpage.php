@@ -25,7 +25,7 @@
 
 <body>
 <!--header-->
-<header data-scroll-header id="home" class="header">
+<header data-scroll-header class="header">
 
     <div class="header__flex">
         <div class="name__flex">

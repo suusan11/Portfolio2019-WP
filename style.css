@@ -267,14 +267,12 @@ a {
     -webkit-box-align: center;
             align-items: center;
     margin: 0 10vw; }
-  .header .global__menu a{
-    color: #FFFFFF;
-    font-size: 16px; }
-.header .global__menu button{
+  .header .global__menu button{
   color: #FFFFFF;
   font-size: 16px;
   background-color: #2D3133;
-  border: none;}
+  border: none;
+  cursor: pointer; }
   .header .global__menu .click__open {
     display: none;
     position: fixed;
@@ -299,7 +297,8 @@ a {
       font-weight: normal;
       position: absolute;
       top: 5vh;
-      right: 10vw; }
+      right: 10vw;
+      cursor: pointer; }
     .header .global__menu .click__open li {
       margin-bottom: 5vh; }
     .header .global__menu .click__open.active {
