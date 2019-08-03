@@ -93,12 +93,10 @@ section {
       bottom: 220px; } }
   #js-topButton a {
     display: block;
-    width: 48px;
-    height: 48px;
     color: #FFFFFF;
     font-size: 18px;
     text-align: center;
-    line-height: 50px; }
+    line-height: 50px;}
   #js-topButton.is__show {
     display: block;
     -webkit-animation: opacity .2s ease-in forwards;
@@ -477,8 +475,8 @@ a {
     left: 10vw;
     margin: 0 auto 5vh;
     opacity: 0;
-    -webkit-animation: show .5s 2.5s forwards;
-            animation: show .5s 2.5s forwards; }
+    -webkit-animation: show .5s 3s forwards;
+            animation: show .5s 3s forwards; }
     @media (min-width: 1000px) {
       .hero p.scroll__guide {
         font-size: 14px; } }
@@ -922,7 +920,7 @@ footer {
           width: 50px;
           height: 20px; } }
       footer .footer__flex .icon:hover {
-        opacity: .8; }
+        fill: #F28888;}
   footer p.copy-write {
     color: #FFFFFF;
     font-size: 9px;
