@@ -32,7 +32,7 @@
                     <?php while ( $the_query->have_posts() ): $the_query->the_post(); ?>
                         <div class="works__items-item">
                             <div class="text__hover">
-                                <a href=""><h2 class="color__change" data-txt="<?php the_title(); ?>"><?php the_title(); ?></h2></a>
+                                <a href="<?php the_permalink(); ?>"><h2 class="color__change" data-txt="<?php the_title(); ?>"><?php the_title(); ?></h2></a>
                                 <p><?php the_tags('- ', ' / ', ' '); ?></p>
                             </div>
                             <div class="hover__appear">
