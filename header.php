@@ -25,7 +25,7 @@
 
 <body>
     <!--header-->
-    <header data-scroll-header id="home" class="header">
+    <header data-scroll-header class="header">
 
         <div class="header__flex">
             <div class="name__flex">
@@ -44,7 +44,7 @@
                 <li><a data-scroll href="#contact">CONTACT</a></li>
             </ul>
             <div class="global__menu">
-                <div id="js-open-menu"><a>MENU</a></div>
+                <button id="js-open-menu">MENU</button>
                 <div id="js-global-menu" class="click__open">
                     <div id="js-close-menu" class="close__button">×</div>
                     <?php
@@ -53,9 +53,9 @@
                     ));
                     ?>
                     <ul>
-                        <li class="js-link-menu"><a href="#home">HOME</a></li>
-                        <li class="js-link-menu"><a href="#about">VALUES</a></li>
+                        <li class="js-link-menu"><a href="#">HOME</a></li>
                         <li class="js-link-menu"><a href="#works">WORKS</a></li>
+                        <li class="js-link-menu"><a href="#values">VALUES</a></li>
                         <li class="js-link-menu"><a href="#contact">CONTACT</a></li>
                     </ul>
                     <div class="sns__flex">

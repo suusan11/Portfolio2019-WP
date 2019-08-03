@@ -5,8 +5,6 @@
  * Date: 2019-08-02
  * Time: 19:25
  */
-
-get_header();
 ?>
 
     <div class="animsition">
@@ -150,6 +148,3 @@ get_header();
         <!--work image and link to Website-->
     </div>
     <!--animsition-->
-
-
-<?php get_footer(); ?>

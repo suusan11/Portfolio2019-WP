@@ -36,11 +36,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-*,
-*:after,
-*:before {
-  box-sizing: border-box; }
-
 * {
   margin: 0;
   padding: 0;
@@ -55,6 +50,8 @@ html {
           font-variant-ligatures: common-ligatures;
   color: #2D3133; }
 
+
+/*----- global -----*/
 *, *:before, *:after {
   box-sizing: border-box;
   list-style: none; }
@@ -190,24 +187,8 @@ a {
   width: 80vw;
   margin: 0 auto; }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
-
+/*----- header -----*/
 @media (min-width: 1000px) {
   .global__menu {
     display: none; } }
@@ -286,9 +267,12 @@ html {
     -webkit-box-align: center;
             align-items: center;
     margin: 0 10vw; }
-  .header .global__menu a {
-    color: #FFFFFF;
-    font-size: 16px; }
+  .header .global__menu button{
+  color: #FFFFFF;
+  font-size: 16px;
+  background-color: #2D3133;
+  border: none;
+  cursor: pointer; }
   .header .global__menu .click__open {
     display: none;
     position: fixed;
@@ -313,7 +297,8 @@ html {
       font-weight: normal;
       position: absolute;
       top: 5vh;
-      right: 10vw; }
+      right: 10vw;
+      cursor: pointer; }
     .header .global__menu .click__open li {
       margin-bottom: 5vh; }
     .header .global__menu .click__open.active {
@@ -401,15 +386,8 @@ html {
       .header__flex--right a:hover {
         color: #F28888; } }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
 
+/*----- hero section -----*/
 .hero {
   position: relative;
   width: 100vw;
@@ -560,15 +538,8 @@ html {
             transform: translateY(20px);
     opacity: 0; } }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
 
+/*----- values section -----*/
 .values__flex {
   display: -webkit-box;
   display: flex;
@@ -647,15 +618,8 @@ html {
     .values__flex-item:hover p.text__hide {
       opacity: 1; }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
 
+/*----- works section -----*/
 .works {
   position: relative;
   width: 100vw;
@@ -794,6 +758,8 @@ html {
         .works__items .hover__appear img {
           height: 45%; } }
 
+
+/*----- about inside of values section -----*/
 .about {
   padding: 15% 0; }
   @media (min-width: 1000px) {
@@ -840,15 +806,8 @@ html {
     .about h1 {
       margin-right: 10vw; } }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
 
+/*----- footer -----*/
 footer {
   width: 100vw;
   height: 180px;
@@ -983,6 +942,8 @@ footer {
         font-size: 12px;
         margin-top: 2%; } }
 
+
+/*----- common button -----*/
 a.common__button {
   display: block;
   position: relative;
@@ -1036,21 +997,14 @@ a.common__button {
     top: 0;
     left: 0; }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
 
+/*----- work intro(work page) -----*/
 .work__intro--black {
   width: 100vw;
   height: 100vh;
   background-color: #2D3133;
   padding: 7vh 10vw;
-  margin-top: 8vh; }
+  margin-top: 5vh; }
   @media (min-width: 1000px) {
     .work__intro--black {
       margin-top: 0; } }
@@ -1060,6 +1014,7 @@ html {
       margin-bottom: 10vh; } }
   @media (min-width: 440px) and (max-width: 599px) {
     .work__intro--black {
+      margin-top: 7vh;
       padding: 15vh 10vw; } }
   .work__intro--black h2 {
     color: #FFFFFF;
@@ -1194,15 +1149,8 @@ html {
       padding-top: 10vh;
       margin-bottom: 100px; } }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
 
+/*----- work color(work page) -----*/
 .work__color {
   text-align: left;
   margin-top: 10vh; }
@@ -1893,15 +1841,8 @@ html {
       width: 100%;
       margin-bottom: 100px; } }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
 
+/*----- work font(work page) -----*/
 .work__font {
   margin-bottom: 5vh; }
   @media (min-width: 1000px) {
@@ -2083,15 +2024,8 @@ html {
       width: 100%;
       margin-bottom: 100px; } }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
 
+/*----- work link(work page) -----*/
 .work__link {
   position: relative;
   margin-top: 10vh; }
@@ -2141,15 +2075,8 @@ html {
     .work__link .pagenation h4:hover {
       opacity: 0.8; }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
 
+/*----- work feature(work page) -----*/
 .work__feature {
   text-align: left;
   margin: 5vh auto; }
@@ -2208,15 +2135,8 @@ html {
       width: 100%;
       margin-bottom: 100px; } }
 
-html {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.2;
-  font-weight: 400;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-font-variant-ligatures: common-ligatures;
-          font-variant-ligatures: common-ligatures;
-  color: #2D3133; }
 
+/*----- work ui(work page) -----*/
 .work__ui {
   margin-top: 10vh; }
   @media (min-width: 1000px) {
@@ -2533,6 +2453,8 @@ html {
           width: 250px;
           margin-left: 0; } }
 
+
+/*----- divide layout for PC(work page) -----*/
 @media (min-width: 1000px) {
   .sticky__container {
     display: -webkit-box;

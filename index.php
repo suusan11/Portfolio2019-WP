@@ -10,7 +10,7 @@
 
 <?php get_header(); ?>
 
-<div class="animsition">
+<div class="animsition" data-animsition-in-class="fade-in">
 
     <section id="js-breakPoint" class="hero">
         <div class="container">
