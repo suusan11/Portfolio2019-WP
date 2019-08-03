@@ -11,14 +11,17 @@ get_header();
 ?>
     //link to each category slug page
     <?php
-        if ( in_category('kulkuri') ) {
-            include(TEMPLATEPATH . '/single/single-kulkuri.php');
-        }else if ( in_category('mogu') ) {
-            include(TEMPLATEPATH . '/single/single-mogu.php');
-        }else if ( in_category('wordsworth') ){
-            include(TEMPLATEPATH . '/single/single-wordsworth.php');
-        }else {
-            include(TEMPLATEPATH . '/single/single-ui.php');
+        $post = $wp_query -> post;
+        if (in_category('work')) {
+            if ( is_single('kulkuri') ) {
+                include(TEMPLATEPATH . '/single/single-kulkuri.php');
+            }else if ( is_single('mogu') ) {
+                include(TEMPLATEPATH . '/single/single-mogu.php');
+            }else if ( is_single('wordsworth') ){
+                include(TEMPLATEPATH . '/single/single-wordsworth.php');
+            }else {
+                include(TEMPLATEPATH . '/single/single-ui.php');
+            }
         }
     ?>
 
