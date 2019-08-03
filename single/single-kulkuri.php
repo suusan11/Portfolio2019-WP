@@ -28,7 +28,7 @@ get_header() ;
 
         <div class="scroll__container">
             <section class="work__image kulkuri scroll__item container">
-                <img src="../images/kulkuri/whole.png" alt="whole page image">
+                <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/whole.png" alt="whole page image">
             </section>
         </div>
         <!--right section available to scroll-->
@@ -92,18 +92,18 @@ get_header() ;
         <div class="scroll__container">
             <section class="work__image--color kulkuri scroll__item container">
                 <div class="work__image--color--flex">
-                    <img src="../images/kulkuri/color/color__australia.jpg" alt="color image australia">
-                    <img src="../images/kulkuri/color/color__german.jpg" alt="color image german">
+                    <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/color/color__australia.jpg" alt="color image australia">
+                    <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/color/color__german.jpg" alt="color image german">
                 </div>
-                <img class="no__flex" src="../images/kulkuri/color/color__fin.jpg" alt="color image finland">
+                <img class="no__flex" src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/color/color__fin.jpg" alt="color image finland">
                 <div class="work__image--color--flex">
-                    <img src="../images/kulkuri/color/color__canada.jpg" alt="color image canada">
-                    <img src="../images/kulkuri/color/color__malaysia.jpg" alt="color image malaysia">
+                    <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/color/color__canada.jpg" alt="color image canada">
+                    <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/color/color__malaysia.jpg" alt="color image malaysia">
                 </div>
-                <img class="no__flex" src="../images/kulkuri/color/color__thai.jpg" alt="color image thailand">
+                <img class="no__flex" src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/color/color__thai.jpg" alt="color image thailand">
                 <div class="work__image--color--flex">
-                    <img src="../images/kulkuri/color/color__taiwan.jpg" alt="color image taiwan">
-                    <img src="../images/kulkuri/color/color__usa.jpg" alt="color image usa">
+                    <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/color/color__taiwan.jpg" alt="color image taiwan">
+                    <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/color/color__usa.jpg" alt="color image usa">
                 </div>
             </section>
         </div>
@@ -118,11 +118,11 @@ get_header() ;
                 <h4>Base - Mukta</h4>
                 <div class="flex">
                     <div class="work__font--item-each">
-                        <img class="font-kulkuri" src="../images/kulkuri/font/fontMuktaLight.png" alt="font Mukta Light">
+                        <img class="font-kulkuri" src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/font/fontMuktaLight.png" alt="font Mukta Light">
                         <p>Light</p>
                     </div>
                     <div class="work__font--item-each">
-                        <img class="font-kulkuri" src="../images/kulkuri/font/fontMuktaRegular.png" alt="font Mukta Regular">
+                        <img class="font-kulkuri" src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/font/fontMuktaRegular.png" alt="font Mukta Regular">
                         <p>Regular</p>
                     </div>
                 </div>
@@ -130,7 +130,7 @@ get_header() ;
             <div class="work__font--item">
                 <h4>Heading  - Signika Negative</h4>
                 <div class="work__font--item-each">
-                    <img class="font-kulkuri" src="../images/kulkuri/font/fontSignikaRegular.png" alt="font Signika Regular">
+                    <img class="font-kulkuri" src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/font/fontSignikaRegular.png" alt="font Signika Regular">
                     <p>Regular</p>
                 </div>
             </div>
@@ -138,7 +138,7 @@ get_header() ;
                 <h4>Country name on photo - Amatic SC</h4>
                 <p class="description__p">Imagined a handmade album and made it look like handwriting.</p>
                 <div class="work__font--item-each">
-                    <img class="font-kulkuri" src="../images/kulkuri/font/fontAmaticRegular.png" alt="font Amatic Regular">
+                    <img class="font-kulkuri" src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/font/fontAmaticRegular.png" alt="font Amatic Regular">
                     <p>Regular</p>
                 </div>
             </div>
@@ -147,25 +147,25 @@ get_header() ;
         <div class="scroll__container">
             <section class="work__image--font kulkuri scroll__item container">
                 <div class="work__image--font-item">
-                    <img src="../images/kulkuri/font/font__header.png" alt="font image header">
+                    <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/font/font__header.png" alt="font image header">
                     <p>- Header</p>
                 </div>
                 <div class="work__image--font-item">
-                    <img src="../images/kulkuri/font/font__description1.png" alt="font image description">
+                    <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/font/font__description1.png" alt="font image description">
                     <p>- Travel guide to each county page</p>
                 </div>
                 <div class="work__image--font-item">
-                    <img src="../images/kulkuri/font/font__description2.png" alt="font image description">
+                    <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/font/font__description2.png" alt="font image description">
                     <p>- Description</p>
                 </div>
                 <div class="work__image--font-item">
-                    <img src="../images/kulkuri/font/font__heading.png" alt="font image heading">
+                    <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/font/font__heading.png" alt="font image heading">
                     <p>- Heading</p>
                 </div>
                 <div class="work__image--font-item">
                     <div class="flex">
-                        <img src="../images/kulkuri/font/font__country1.jpg" alt="font image country name">
-                        <img src="../images/kulkuri/font/font__country2.jpg" alt="font image country name">
+                        <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/font/font__country1.jpg" alt="font image country name">
+                        <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/font/font__country2.jpg" alt="font image country name">
                     </div>
                     <p>- Photo frame</p>
                 </div>
@@ -184,7 +184,7 @@ get_header() ;
         </section>
         <div class="scroll__container">
             <section class="work__image--feature kulkuri scroll__item container">
-                <img src="../images/kulkuri/feature.png" alt="grid image">
+                <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/feature.png" alt="grid image">
             </section>
         </div>
         <!--right section available to scroll-->
@@ -193,7 +193,7 @@ get_header() ;
 
     <section class="work__link">
         <div class="work__link--images">
-            <img src="../images/kulkuri/device__image.jpg" alt="devices image">
+            <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/device__image.jpg" alt="devices image">
         </div>
         <a class="common__button button__work--bottom" href="https://kulkuriworld.com/" target="_blank">Visit Website</a>
         <div class="pagenation container">
