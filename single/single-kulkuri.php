@@ -5,8 +5,6 @@
  * Date: 2019-08-02
  * Time: 17:38
  */
-
-get_header('workpage') ;
 ?>
 
 <div class="animsition">
@@ -204,6 +202,3 @@ get_header('workpage') ;
     <!--work image and link to Website-->
 </div>
 <!--animsition-->
-
-
-<?php get_footer(); ?>

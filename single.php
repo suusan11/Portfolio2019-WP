@@ -7,7 +7,7 @@
  * @package hungrydeveloper
  */
 
-get_header();
+get_header('workpage');
 ?>
     //link to each category slug page
     <?php
