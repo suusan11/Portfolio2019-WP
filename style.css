@@ -1,3 +1,16 @@
+/*
+Theme Name: hungrydeveloper
+Theme URI: http://suzukimie.com/
+Author: Mie Suzuki
+Author URI: http://mie.com
+Description: A custom WordPress theme for blog.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: hungrydeveloper
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300i,400,400i,500,500i,700,700i,900,900i&display=swap);@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap);@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -1119,7 +1132,7 @@ a.common__button {
       width: 50vw;
       min-height: 770px;
       margin-top: 5vh;
-      padding: 30vh 10vw; } }
+      padding: 20vh 10vw; } }
 
 .work__image {
   width: 100vw;
