@@ -11,7 +11,7 @@ Text Domain: hungrydeveloper
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300i,400,400i,500,500i,700,700i,900,900i&display=swap);@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300i,400,400i,500,500i,700,700i,900,900i&display=swap);@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap);
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -1557,46 +1557,123 @@ a.common__button {
               margin-bottom: 5px; } }
         .work__color--item--flex-middle.kulkuri-color .name-set p {
           padding-bottom: 2px; }
-    .work__color--item--flex-top.mogu-color {
-      display: -webkit-box;
-      display: flex;
-      -webkit-box-pack: start;
+          /* color kulkuri */
+
+        .work__color--item--flex-top.mogu-color {
+          display: -webkit-box;
+          display: flex;
+          -webkit-box-pack: start;
+                  justify-content: flex-start;
+          -webkit-box-align: center;
+                  align-items: center;
+          flex-wrap: wrap;
+          margin-top: 2vh; }
+          .work__color--item--flex-top.mogu-color .color--box {
+            width: 20vw;
+            height: 7vh;
+            background-color: #B4061F;
+            color: #FFFFFF;
+            line-height: 7vh;
+            text-align: center;
+            margin-right: 1.5vw;
+            font-size: 12px;
+            font-size: 3.75vw; }
+            @media (min-width: 1000px) {
+              .work__color--item--flex-top.mogu-color .color--box {
+                font-size: 18px;
+                width: 100px;
+                height: 68px;
+                line-height: 68px;
+                margin-bottom: 5px; } }
+            @media (min-width: 600px) and (max-width: 999px) {
+              .work__color--item--flex-top.mogu-color .color--box {
+                font-size: 18px;
+                width: 100px;
+                height: 68px;
+                line-height: 68px;
+                margin-bottom: 5px; } }
+            @media (min-width: 440px) and (max-width: 599px) {
+              .work__color--item--flex-top.mogu-color .color--box {
+                font-size: 18px;
+                width: 100px;
+                height: 68px;
+                line-height: 68px;
+                margin-bottom: 5px; } }
+                /* color mogu */
+
+            .work__color--item--flex-top.portfolio-color {
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-pack: start;
               justify-content: flex-start;
-      -webkit-box-align: center;
+            -webkit-box-align: center;
               align-items: center;
-      flex-wrap: wrap;
-      margin-top: 2vh; }
-      .work__color--item--flex-top.mogu-color .color--box {
-        width: 20vw;
-        height: 7vh;
-        background-color: #B4061F;
-        color: #FFFFFF;
-        line-height: 7vh;
-        text-align: center;
-        margin-right: 1.5vw;
-        font-size: 12px;
-        font-size: 3.75vw; }
-        @media (min-width: 1000px) {
-          .work__color--item--flex-top.mogu-color .color--box {
+            flex-wrap: wrap;
+            margin-top: 2vh; }
+            .work__color--item--flex-top.portfolio-color .color--box:nth-child(1) {
+            width: 20vw;
+            height: 7vh;
+            background-color: #2d3133;
+            color: #FFFFFF;
+            line-height: 7vh;
+            text-align: center;
+            margin-right: 1.5vw;
+            font-size: 12px;
+            font-size: 3.75vw; }
+            @media (min-width: 1000px) {
+            .work__color--item--flex-top.portfolio-color .color--box:nth-child(1) {
             font-size: 18px;
             width: 100px;
             height: 68px;
             line-height: 68px;
             margin-bottom: 5px; } }
-        @media (min-width: 600px) and (max-width: 999px) {
-          .work__color--item--flex-top.mogu-color .color--box {
+            @media (min-width: 600px) and (max-width: 999px) {
+            .work__color--item--flex-top.portfolio-color .color--box:nth-child(1) {
             font-size: 18px;
             width: 100px;
             height: 68px;
             line-height: 68px;
             margin-bottom: 5px; } }
-        @media (min-width: 440px) and (max-width: 599px) {
-          .work__color--item--flex-top.mogu-color .color--box {
+            @media (min-width: 440px) and (max-width: 599px) {
+            .work__color--item--flex-top.portfolio-color .color--box:nth-child(1) {
             font-size: 18px;
             width: 100px;
             height: 68px;
             line-height: 68px;
             margin-bottom: 5px; } }
+            .work__color--item--flex-top.portfolio-color .color--box:nth-child(2) {
+              width: 20vw;
+              height: 7vh;
+              background-color: #F28888;
+              color: #FFFFFF;
+              line-height: 7vh;
+              text-align: center;
+              margin-right: 1.5vw;
+              font-size: 12px;
+              font-size: 3.75vw; }
+              @media (min-width: 1000px) {
+                .work__color--item--flex-top.portfolio-color .color--box:nth-child(2) {
+                  font-size: 18px;
+                  width: 100px;
+                  height: 68px;
+                  line-height: 68px;
+                  margin-bottom: 5px; } }
+              @media (min-width: 600px) and (max-width: 999px) {
+                .work__color--item--flex-top.portfolio-color .color--box:nth-child(2) {
+                  font-size: 18px;
+                  width: 100px;
+                  height: 68px;
+                  line-height: 68px;
+                  margin-bottom: 5px; } }
+              @media (min-width: 440px) and (max-width: 599px) {
+                .work__color--item--flex-top.portfolio-color .color--box:nth-child(2) {
+                  font-size: 18px;
+                  width: 100px;
+                  height: 68px;
+                  line-height: 68px;
+                  margin-bottom: 5px; } }
+                  /* color portfolio */
+
     .work__color--item.wordsworth span.gold {
       color: #BFAE8E;
       font-weight: 700; }
