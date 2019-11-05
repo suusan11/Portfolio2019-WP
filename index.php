@@ -37,8 +37,20 @@
                             data-txt="<?php the_title(); ?>"><?php the_title(); ?>
                         </h2>
                     </a>
-                    <p><?php the_tags('- ', ' / ', ' '); ?>
-                    </p>
+                    <?php
+                        $posttags = get_the_tags();
+                        $before = '- ';
+                        $separator = ' / ';
+                        $output = '';
+                        if ($posttags) {
+                            echo $before;
+                            foreach ($posttags as $tag) {
+                                $output .= $tag -> name . $separator;
+                            }
+                        }
+                        $output = rtrim($output, $separator);
+                        echo $output;
+                    ?>
                 </div>
                 <div class="hover__appear">
                     <?php
