@@ -9,17 +9,19 @@
 
 get_header('workpage');
 ?>
-    //link to each category slug page
-    <?php
+//link to each category slug page
+<?php
         $post = $wp_query -> post; //get THE post including posts
         if (in_category('work')) {
-            if ( is_single('kulkuri') ) {
+            if (is_single('kulkuri')) {
                 include(TEMPLATEPATH . '/single/single-kulkuri.php');
-            }else if ( is_single('mogu') ) {
+            } elseif (is_single('mogu')) {
                 include(TEMPLATEPATH . '/single/single-mogu.php');
-            }else if ( is_single('wordsworth-planner') ){
+            } elseif (is_single('portfolio')) {
+                include(TEMPLATEPATH . '/single/single-portfolio.php');
+            } elseif (is_single('wordsworth-planner')) {
                 include(TEMPLATEPATH . '/single/single-wordsworth.php');
-            }else {
+            } else {
                 include(TEMPLATEPATH . '/single/single-ui.php');
             }
         }

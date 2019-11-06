@@ -21,11 +21,8 @@
                 <p>HTML5, SCSS, JavaScript, XD, Illustrator, Photoshop</p>
                 <p>Dec. 2018</p>
             </div>
-<<<<<<< HEAD
             <a class="hover__link" href="https://suzukimie.com/" target="_blank">Visit Website</a>
-=======
-            <a class="hover__link" href="https://kulkuriworld.com/" target="_blank">Visit Website</a>
->>>>>>> 72964dd5a3f712edd757a12f4032805559ed6f0a
+
         </section>
 
         <div class="scroll__container">
