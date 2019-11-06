@@ -151,7 +151,7 @@
     </section>
     <div class="scroll__container">
       <section class="work__image--feature portfolio scroll__item container">
-        <div class="image__wrapper portfolio">
+        <div class="image__wrapper">
           <video
             src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/scroll__video.mp4"
             loop autoplay muted playsinline></video>
