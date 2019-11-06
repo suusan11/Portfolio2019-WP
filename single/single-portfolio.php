@@ -144,16 +144,18 @@
 
   <div class="sticky__container">
     <section class="work__feature portfolio sticky container">
-      <h1 class="section__title work__h1">Grid</h1>
-      <p>Placed the photos as if I was viewing an album using CSS Grid.
-        It also supports responsiveness, and when the width becomes less 1000px, it becomes 1 column.
+      <h1 class="section__title work__h1">Sticky Layout</h1>
+      <p>In consideration of UX, the sentences were fixed to the left for easy reading, and the related images were
+        placed to the right so that they could be seen by scrolling.
       </p>
     </section>
     <div class="scroll__container">
       <section class="work__image--feature portfolio scroll__item container">
-        <img
-          src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/feature.png"
-          alt="grid image">
+        <div class="image__wrapper portfolio">
+          <video
+            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/scroll__video.mp4"
+            loop autoplay muted playsinline></video>
+        </div>
       </section>
     </div>
     <!--right section available to scroll-->

@@ -2266,6 +2266,8 @@ a.common__button {
     @media (min-width: 1000px) {
       .work__image--feature.kulkuri img {
         width: 50vw; } }
+  /* feature kulkuri */
+
   .work__image--feature.mogu .image__wrapper {
     width: 80vw;
     margin: 0 auto; }
@@ -2283,6 +2285,27 @@ a.common__button {
     .work__image--feature.scroll__item {
       width: 100%;
       margin-bottom: 100px; } }
+  /* feature mogu */
+
+    .work__image--feature.portfolio .image__wrapper {
+      width: 80vw;
+      padding: 10vh 0;
+      margin: 0 auto; }
+      @media (min-width: 1000px) {
+        .work__image--feature.portfolio .image__wrapper {
+          width: 47vw; } }
+      .work__image--feature.portfolio .image__wrapper video {
+        width: 100%;
+        margin: 10vh auto; }
+      .work__image--feature.portfolio .image__wrapper h3 {
+        text-align: left;
+        margin-top: 1vh;
+        font-weight: 500; }
+    @media (min-width: 1000px) {
+      .work__image--feature.scroll__item {
+        width: 100%;
+        margin-bottom: 100px; } }
+    /* feature portfolio */
 
 
 /*----- work ui(work page) -----*/
