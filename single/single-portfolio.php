@@ -11,10 +11,8 @@
   <div class="sticky__container">
     <section id="js-breakPoint" class="work__intro--black sticky container">
       <h2>Portfolio</h2>
-      <p>‘portfolio’ means freedom traveller in Finnish.<br>
-        This is a gallery site of my trip.
-        I have introduced eight countries that have three contents about “attraction”, “food” and “scenery”.
-        To show the photos with effect, using CSS Grid and assign theme color for each country.
+      <p>All my technology and passion on this portfolio site. In particular, with an emphasis on the work section, the
+        concept of design and tools used for development are introduced.
       </p>
       <div class="detail-set">
         <p>#Web Design #Web Development</p>
@@ -40,11 +38,12 @@
       <h1 class="section__title work__h1">Colors</h1>
       <div class="work__color--item">
         <h4>Theme color</h4>
-        <p>Expressed a new world that I can meet on a trip.
-          Blue is the sea, orange is the sun, and red is the warmth of people.
+        <p>The contrasting black and white colors express a wide range of flexibility and added my own color pink to
+          express myself.
         </p>
         <div class="work__color--item--flex-top portfolio-color">
           <div class="color--box">#2d3133</div>
+          <div class="color--box">#FFFFFF</div>
           <div class="color--box">#F28888</div>
         </div>
       </div>
@@ -52,35 +51,23 @@
 
     <div class="scroll__container">
       <section class="work__image--color portfolio scroll__item container">
-        <div class="work__image--color--flex">
+        <div class="image__wrapper portfolio">
           <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__australia.jpg"
-            alt="color image australia">
+            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__header.png"
+            alt="color image header">
+          <p>- Header</p>
           <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__german.jpg"
-            alt="color image german">
-        </div>
-        <img class="no__flex"
-          src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__fin.jpg"
-          alt="color image finland">
-        <div class="work__image--color--flex">
+            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__header2.png"
+            alt="color image header">
+          <p>- Header for mobile device</p>
           <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__canada.jpg"
-            alt="color image canada">
+            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__icons.png"
+            alt="color image icons">
+          <p>- Icons</p>
           <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__malaysia.jpg"
-            alt="color image malaysia">
-        </div>
-        <img class="no__flex"
-          src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__thai.jpg"
-          alt="color image thailand">
-        <div class="work__image--color--flex">
-          <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__taiwan.jpg"
-            alt="color image taiwan">
-          <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__usa.jpg"
-            alt="color image usa">
+            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__text.png"
+            alt="color hover text">
+          <p>- Hover effect</p>
         </div>
       </section>
     </div>
@@ -92,38 +79,28 @@
     <section class="work__font sticky container">
       <h1 class="section__title work__h1">Fonts</h1>
       <div class="work__font--item">
-        <h4>Base - Mukta</h4>
+        <h4>Base - Robot</h4>
         <div class="flex">
           <div class="work__font--item-each">
             <img class="font-portfolio"
-              src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/fontMuktaLight.png"
-              alt="font Mukta Light">
-            <p>Light</p>
+              src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/fontRobotRegular.png"
+              alt="font Robot Regular">
+            <p>Regular</p>
           </div>
           <div class="work__font--item-each">
             <img class="font-portfolio"
-              src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/fontMuktaRegular.png"
-              alt="font Mukta Regular">
-            <p>Regular</p>
+              src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/fontRobotBold.png"
+              alt="font Robot Bold">
+            <p>Bold</p>
           </div>
         </div>
       </div>
       <div class="work__font--item">
-        <h4>Heading - Signika Negative</h4>
+        <h4>Specially - Roboto Slab</h4>
         <div class="work__font--item-each">
           <img class="font-portfolio"
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/fontSignikaRegular.png"
-            alt="font Signika Regular">
-          <p>Regular</p>
-        </div>
-      </div>
-      <div class="work__font--item portfolio__last">
-        <h4>Country name on photo - Amatic SC</h4>
-        <p class="description__p">Imagined a handmade album and made it look like handwriting.</p>
-        <div class="work__font--item-each">
-          <img class="font-portfolio"
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/fontAmaticRegular.png"
-            alt="font Amatic Regular">
+            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/fontRobotSlab.png"
+            alt="font Roboto Slab Regular">
           <p>Regular</p>
         </div>
       </div>
@@ -193,7 +170,7 @@
   <section class="work__link">
     <div class="work__link--images">
       <img
-        src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/device__image.jpg"
+        src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/devices__image.jpg"
         alt="devices image">
     </div>
     <a class="common__button button__work--bottom" href="https://suzukimie.com/" target="_blank">Visit
