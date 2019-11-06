@@ -68,6 +68,14 @@
             src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__text.png"
             alt="color hover text">
           <p>- Hover effect</p>
+          <img
+            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__button.png"
+            alt="color hover text">
+          <p>- Button</p>
+          <img
+            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__hero.png"
+            alt="color hover text">
+          <p>- Hero</p>
         </div>
       </section>
     </div>
@@ -78,6 +86,8 @@
   <div class="sticky__container">
     <section class="work__font sticky container">
       <h1 class="section__title work__h1">Fonts</h1>
+      <p>Chose to focus on readability on any device and browser. Even if the font size is reduced with the smartphone
+        size, it does not feel difficult to read.</p>
       <div class="work__font--item">
         <h4>Base - Robot</h4>
         <div class="flex">
@@ -108,40 +118,23 @@
 
     <div class="scroll__container">
       <section class="work__image--font portfolio scroll__item container">
-        <div class="work__image--font-item">
-          <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/font__header.png"
-            alt="font image header">
-          <p>- Header</p>
-        </div>
-        <div class="work__image--font-item">
-          <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/font__description1.png"
-            alt="font image description">
-          <p>- Travel guide to each county page</p>
-        </div>
-        <div class="work__image--font-item">
-          <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/font__description2.png"
-            alt="font image description">
-          <p>- Description</p>
-        </div>
-        <div class="work__image--font-item">
+        <div class="image__wrapper portfolio">
           <img
             src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/font__heading.png"
             alt="font image heading">
           <p>- Heading</p>
-        </div>
-        <div class="work__image--font-item">
-          <div class="flex">
-            <img
-              src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/font__country1.jpg"
-              alt="font image country name">
-            <img
-              src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/font__country2.jpg"
-              alt="font image country name">
-          </div>
-          <p>- Photo frame</p>
+          <img
+            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/font__values.png"
+            alt="font image values">
+          <p>- Values</p>
+          <img
+            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/font__works.png"
+            alt="font image description of work detail">
+          <p>- Description of work detail</p>
+          <img
+            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/font/font__hero.png"
+            alt="font image hero">
+          <p>- Hero</p>
         </div>
       </section>
     </div>

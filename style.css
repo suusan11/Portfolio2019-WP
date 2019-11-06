@@ -2095,6 +2095,8 @@ a.common__button {
         .work__image--font.kulkuri .flex img {
           width: 45%;
           margin: 0 2%; } }
+    /* font kulkuri */
+
   .work__image--font .image__wrapper {
     width: 75vw;
     margin: 0 auto; }
@@ -2132,6 +2134,32 @@ a.common__button {
       @media (min-width: 440px) and (max-width: 599px) {
         .work__image--font .image__wrapper.mogu p {
           padding-left: 12vw; } }
+      /* font mogu */
+
+      .work__image--font .image__wrapper.portfolio img {
+        width: 70vw; }
+        @media (min-width: 1000px) {
+          .work__image--font .image__wrapper.portfolio img {
+            width: 90%; } }
+        @media (min-width: 600px) and (max-width: 999px) {
+          .work__image--font .image__wrapper.portfolio img {
+            width: 60%; } }
+        @media (min-width: 440px) and (max-width: 599px) {
+          .work__image--font .image__wrapper.portfolio img {
+            width: 70%; } }
+      .work__image--font .image__wrapper.portfolio p {
+        padding-left: 5vw; }
+        @media (min-width: 1000px) {
+          .work__image--font .image__wrapper.portfolio p {
+            padding-left: 2vw; } }
+        @media (min-width: 600px) and (max-width: 999px) {
+          .work__image--font .image__wrapper.portfolio p {
+            padding-left: 16vw; } }
+        @media (min-width: 440px) and (max-width: 599px) {
+          .work__image--font .image__wrapper.portfolio p {
+            padding-left: 12vw; } }
+        /* font work */
+
     .work__image--font .image__wrapper.wordsworth img.small {
       width: 40%; }
     .work__image--font .image__wrapper.wordsworth p.space__left {
@@ -2139,10 +2167,11 @@ a.common__button {
       @media (min-width: 1000px) {
         .work__image--font .image__wrapper.wordsworth p.space__left {
           padding-left: 10.5vw; } }
-  @media (min-width: 1000px) {
-    .work__image--font.scroll__item {
-      width: 100%;
-      margin-bottom: 100px; } }
+      @media (min-width: 1000px) {
+        .work__image--font.scroll__item {
+          width: 100%;
+          margin-bottom: 100px; } }
+      /* font wordsworth */
 
 
 /*----- work link(work page) -----*/
