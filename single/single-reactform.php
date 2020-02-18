@@ -38,47 +38,23 @@
 
   <div class="sticky__container">
     <section class="work__color sticky container">
-      <h1 class="section__title work__h1">Colors</h1>
+      <h1 class="section__title work__h1">Input</h1>
       <div class="work__color--item">
-        <h4>Theme color</h4>
-        <p>The contrasting black and white colors express a wide range of flexibility and added my own color pink to
-          express myself.
+        <p>It has validated not to accept type letters since this input is assumed for number input.
+          And it has a limit to input depends on the type of input.
+          The month can type 01 to 12, the day can type 01 to 31 and the year can type 4 digits and doesn’t allow
+          starting with 0. Adding a placeholder leads to an improvement in user experience.
         </p>
-        <div class="work__color--item--flex-top portfolio-color">
-          <div class="color--box">#2d3133</div>
-          <div class="color--box">#FFFFFF</div>
-          <div class="color--box">#F28888</div>
-        </div>
       </div>
     </section>
 
     <div class="scroll__container">
-      <section class="work__image--color portfolio scroll__item container">
+      <section class="work__image--color react_form scroll__item container">
         <div class="image__wrapper portfolio">
           <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__header.png"
-            alt="color image header">
-          <p>- Header</p>
-          <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__header2.png"
-            alt="color image header">
-          <p>- Header for mobile device</p>
-          <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__icons.png"
-            alt="color image icons">
-          <p>- Icons</p>
-          <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__text.png"
-            alt="color hover text">
-          <p>- Hover effect</p>
-          <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__button.png"
-            alt="color hover text">
-          <p>- Button</p>
-          <img
-            src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/color/color__hero.png"
-            alt="color hover text">
-          <p>- Hero</p>
+            src="<?php echo get_template_directory_uri()?>/dist/images/react_form/input.png"
+            alt="input image">
+          <p>- Number input</p>
         </div>
       </section>
     </div>
