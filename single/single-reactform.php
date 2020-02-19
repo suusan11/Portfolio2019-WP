@@ -60,7 +60,7 @@
     </div>
     <!--right section available to scroll-->
   </div>
-  <!--introduction of color-->
+  <!--introduction of input-->
 
   <div class="sticky__container">
     <section class="work__reactform sticky container">
@@ -95,7 +95,30 @@
   </div>
   <!--right section available to scroll-->
 </div>
-<!--introduction of fonts-->
+<!--introduction of click event-->
+
+<div class="sticky__container">
+  <section class="work__reactform sticky container">
+    <h1 class="section__title work__h1">Input Search</h1>
+    <div class="work__reactform--item">
+      <p>Stores can be added by searching by users. When a user clicks on a suggested store, it will be selected and
+        added.
+      </p>
+    </div>
+  </section>
+  <div class="scroll__container">
+    <section class="work__image--reactform scroll__item container">
+      <div class="image__wrapper">
+        <video
+          src="<?php echo get_template_directory_uri()?>/dist/images/react_form/search.mp4"
+          loop autoplay muted playsinline></video>
+        <p>- Input Search</p>
+      </div>
+    </section>
+  </div>
+  <!--right section available to scroll-->
+</div>
+<!--introduction of input search-->
 
 <div class="sticky__container">
   <section class="work__reactform sticky container">
@@ -119,7 +142,7 @@
   </div>
   <!--right section available to scroll-->
 </div>
-<!--introduction of feature-->
+<!--introduction of error handling-->
 
 <section class="work__link">
   <div class="work__link--images">
