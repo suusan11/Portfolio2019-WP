@@ -98,18 +98,22 @@
 <!--introduction of fonts-->
 
 <div class="sticky__container">
-  <section class="work__feature portfolio sticky container">
-    <h1 class="section__title work__h1">Sticky Layout</h1>
-    <p>In consideration of UX, the sentences were fixed to the left for easy reading, and the related images were
-      placed to the right so that they could be seen by scrolling.
-    </p>
+  <section class="work__reactform sticky container">
+    <h1 class="section__title work__h1">Error Handling</h1>
+    <div class="work__reactform--item">
+      <p>If there is no change in the required fields, the text and a red frame appear. Required items are given
+        required
+        props to control the style when errors occur.
+      </p>
+    </div>
   </section>
   <div class="scroll__container">
-    <section class="work__image--feature portfolio scroll__item container">
+    <section class="work__image--reactform scroll__item container">
       <div class="image__wrapper">
         <video
-          src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/scroll__video.mp4"
+          src="<?php echo get_template_directory_uri()?>/dist/images/react_form/error.mp4"
           loop autoplay muted playsinline></video>
+        <p>- Error</p>
       </div>
     </section>
   </div>
