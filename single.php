@@ -21,6 +21,8 @@ get_header('workpage');
                 include(TEMPLATEPATH . '/single/single-portfolio.php');
             } elseif (is_single('wordsworth-planner')) {
                 include(TEMPLATEPATH . '/single/single-wordsworth.php');
+            } elseif (is_single('react-form')) {
+                include(TEMPLATEPATH . '/single/single-reactform.php');
             } else {
                 include(TEMPLATEPATH . '/single/single-ui.php');
             }
