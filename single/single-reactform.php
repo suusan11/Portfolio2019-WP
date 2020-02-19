@@ -145,13 +145,8 @@
 <!--introduction of error handling-->
 
 <section class="work__link">
-  <div class="work__link--images">
-    <img
-      src="<?php echo get_template_directory_uri()?>/dist/images/portfolio/devices__image.jpg"
-      alt="devices image">
-  </div>
-  <a class="common__button button__work--bottom" href="https://suzukimie.com/" target="_blank">Visit
-    Website</a>
+  <a class="common__button button__work--bottom" href="https://suusan11.github.io/React_Form/" target="_blank">View
+    Demo</a>
   <div class="pagenation container">
     <h4 class="prev"><?php previous_post_link('%link', '< previous'); ?>
     </h4>
