@@ -1153,6 +1153,13 @@ a.common__button {
       margin-top: 8vh;
       padding-top: 10vh;
       margin-bottom: 100px; } }
+  @media (min-width: 1000px) {
+    .work__image--reactform.scroll__item {
+      width: 100%;
+      min-height: 720px;
+      margin-top: 8vh;
+      padding-top: 10vh;
+      margin-bottom: 100px; } }
 
 
 /*----- work color(work page) -----*/
@@ -2171,6 +2178,8 @@ a.common__button {
           margin-bottom: 100px; } }
       /* font wordsworth */
 
+      .work__image--font
+
 
 /*----- work link(work page) -----*/
 .work__link {
@@ -2643,3 +2652,62 @@ a.common__button {
       flex-wrap: wrap;
       width: 50%;
       height: 100%; } }
+
+/*----- style for react form -----*/
+.work__reactform {
+  text-align: left;
+  margin-top: 10vh; }
+  @media (min-width: 1000px) {
+    .work__reactform {
+      padding: 0 5vw; } }
+  .work__reactform--item {
+    margin-bottom: 5vh; }
+    .work__reactform--item p {
+      font-weight: 300;
+      line-height: 2;
+      margin-top: 1vh; }
+      @media (min-width: 1000px) {
+        .work__reactform--item p {
+          width: 35vw;
+          line-height: 1.8;
+          margin-top: 1.5%; } }
+      @media (min-width: 600px) and (max-width: 999px) {
+        .work__reactform
+        --item p {
+          width: 70vw;
+          line-height: 1.3;
+          margin-top: 1.5%; } }
+
+.work__image--reactform {
+  width: 100vw;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 3vh 0;
+  margin: 0 auto; }
+  @media (min-width: 1000px) {
+    .work__image--reactform.single {
+      min-height: 100vh;
+      padding: 20vh 0; } }
+  .work__image--reactform .image__wrapper {
+    width: 80vw;
+    margin: 0 auto; }
+    @media (min-width: 1000px) {
+      .work__image--reactform .image__wrapper {
+        width: 35vw; } }
+    .work__image--reactform .image__wrapper img {
+      width: 100%;
+      margin: 8vh auto 0; }
+      @media (min-width: 1000px) {
+        .work__image--reactform .image__wrapper img {
+          margin: 10vh auto 0; } }
+    .work__image--reactform .image__wrapper video {
+      width: 100%;
+      margin: 8vh auto 0; }
+      @media (min-width: 1000px) {
+        .work__image--reactform .image__wrapper video {
+          margin: 10vh auto 0; } }
+    .work__image--reactform .image__wrapper p {
+      text-align: left;
+      margin-top: 1vh;
+      font-weight: 300; }
+/*----- style for react form -----*/
