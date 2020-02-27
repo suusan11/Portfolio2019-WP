@@ -66,7 +66,7 @@
                 </use>
             </svg></a>
     </div>
-    <p class="copy-write">&copy;2019 MIE SUZUKI developed by &hearts;</p>
+    <p class="copy-write">&copy;2020 MIE SUZUKI developed by &hearts;</p>
 </footer>
 
 <div id="js-topButton"><a data-scroll href="#">↑</a></div>
