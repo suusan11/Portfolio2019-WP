@@ -21,7 +21,7 @@
                 <p>HTML5, SCSS, JavaScript, XD, Illustrator, Photoshop</p>
                 <p>Dec. 2018</p>
             </div>
-            <a class="hover__link" href="https://kulkuriworld.com/" target="_blank">Visit Website</a>
+            <a class="hover__link" href="https://suusan11.github.io/kulkuri/" target="_blank">Visit Website</a>
 
         </section>
 
@@ -221,7 +221,7 @@
             <img src="<?php echo get_template_directory_uri()?>/dist/images/kulkuri/device__image.jpg"
                 alt="devices image">
         </div>
-        <a class="common__button button__work--bottom" href="https://kulkuriworld.com/" target="_blank">Visit
+        <a class="common__button button__work--bottom" href="https://suusan11.github.io/kulkuri/" target="_blank">Visit
             Website</a>
         <div class="pagenation container">
             <h4 class="prev"><?php previous_post_link('%link', '< previous'); ?>
